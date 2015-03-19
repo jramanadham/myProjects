@@ -18,8 +18,8 @@ Basic feature testing is performed.
 Application performs HTTP GET to retreive the JSON from the website.
 Application parses the JSON to get the Food Items and their details.
 Applicaiton is using AsycTask while connecting to the internet.
-
-
+Source code does not include the key provided by the website. Please obtain a key and copy it in the file FoodItem.java 
+Application crashes when the key is not provided or when the button "Get Details" is selected immediately after selecting the item. Few secs gap is expected for normal operation.
 
 Pending items: 
 Adding error handling code.
